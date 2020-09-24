@@ -1,4 +1,4 @@
-# Narcissus
+# Violet
 a GreatFET neighbor that is a jig for testing Gladiolus
 
 Required KiCad dependency:
