@@ -1857,17 +1857,17 @@ EUT_P2_2
 Wire Wire Line
 	14950 7700 15300 7700
 Text Label 2150 4300 1    40   ~ 0
-U1IO0_0
+U1_IO0_0
 Wire Wire Line
 	7450 1700 7150 1700
 Text Label 7150 1700 0    40   ~ 0
-U1IO0_0
+U1_IO0_0
 Wire Wire Line
 	7450 1800 7150 1800
 Text Label 7150 1800 0    40   ~ 0
-U1IO0_1
+U1_IO0_1
 Text Label 2050 4300 1    40   ~ 0
-U1IO0_1
+U1_IO0_1
 Wire Wire Line
 	3950 3950 3950 4300
 $Comp
@@ -1949,19 +1949,19 @@ $EndComp
 Wire Wire Line
 	7450 4100 7300 4100
 Text Label 10400 4000 0    40   ~ 0
-U2IO2_3
+U2_IO2_3
 Text Label 2250 4300 1    40   ~ 0
-U2IO2_3
+U2_IO2_3
 Text Label 10400 3900 0    40   ~ 0
-U2IO2_2
+U2_IO2_2
 Text Label 2550 4300 1    40   ~ 0
-U2IO2_2
+U2_IO2_2
 Wire Wire Line
 	2550 3950 2550 4300
 Text Label 10400 3800 0    40   ~ 0
-U2IO2_1
+U2_IO2_1
 Text Label 2650 4300 1    40   ~ 0
-U2IO2_1
+U2_IO2_1
 Wire Wire Line
 	2650 3950 2650 4300
 $Comp
@@ -2043,39 +2043,39 @@ F 3 "" H 10400 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 10400 3600 0    40   ~ 0
-U2IO2_0
+U2_IO2_0
 Wire Wire Line
 	10700 3600 10400 3600
 Text Label 2750 4300 1    40   ~ 0
-U2IO2_0
+U2_IO2_0
 Wire Wire Line
 	10700 3500 10400 3500
 Text Label 10400 3500 0    40   ~ 0
-U2IO1_7
+U2_IO1_7
 Text Label 2850 4300 1    40   ~ 0
-U2IO1_7
+U2_IO1_7
 Text Label 2950 4300 1    40   ~ 0
-U2IO1_6
+U2_IO1_6
 Wire Wire Line
 	10700 3400 10400 3400
 Text Label 10400 3400 0    40   ~ 0
-U2IO1_6
+U2_IO1_6
 Wire Wire Line
 	10700 3300 10400 3300
 Text Label 10400 3300 0    40   ~ 0
-U2IO1_5
+U2_IO1_5
 Text Label 3150 4300 1    40   ~ 0
-U2IO1_5
+U2_IO1_5
 Text Label 3250 4300 1    40   ~ 0
-U2IO1_4
+U2_IO1_4
 Text Label 3350 4300 1    40   ~ 0
-U2IO1_3
+U2_IO1_3
 Text Label 3450 4300 1    40   ~ 0
-U2IO1_2
+U2_IO1_2
 Text Label 3550 4300 1    40   ~ 0
-U2IO1_1
+U2_IO1_1
 Text Label 3650 4300 1    40   ~ 0
-U2IO1_0
+U2_IO1_0
 Wire Wire Line
 	10700 3100 10400 3100
 Wire Wire Line
@@ -2087,21 +2087,21 @@ Wire Wire Line
 Wire Wire Line
 	10700 2700 10400 2700
 Text Label 10400 3100 0    40   ~ 0
-U2IO1_4
+U2_IO1_4
 Text Label 10400 3000 0    40   ~ 0
-U2IO1_3
+U2_IO1_3
 Text Label 10400 2900 0    40   ~ 0
-U2IO1_2
+U2_IO1_2
 Text Label 10400 2800 0    40   ~ 0
-U2IO1_1
+U2_IO1_1
 Text Label 10400 2700 0    40   ~ 0
-U2IO1_0
+U2_IO1_0
 Text Label 3750 4300 1    40   ~ 0
-U2IO0_7
+U2_IO0_7
 Text Label 3850 4300 1    40   ~ 0
-U2IO0_6
+U2_IO0_6
 Text Label 3950 4300 1    40   ~ 0
-U2IO0_5
+U2_IO0_5
 Wire Wire Line
 	10700 2600 10400 2600
 Wire Wire Line
@@ -2109,25 +2109,25 @@ Wire Wire Line
 Wire Wire Line
 	10700 2300 10400 2300
 Text Label 10400 2600 0    40   ~ 0
-U2IO0_7
+U2_IO0_7
 Text Label 10400 2400 0    40   ~ 0
-U2IO0_6
+U2_IO0_6
 Text Label 10400 2300 0    40   ~ 0
-U2IO0_5
+U2_IO0_5
 Text Label 9000 1700 2    40   ~ 0
-U1IO4_7
+U1_IO4_7
 Text Label 1600 1550 0    40   ~ 0
-U1IO4_7
+U1_IO4_7
 Text Label 1600 1650 0    40   ~ 0
-U1IO4_6
+U1_IO4_6
 Text Label 9000 1800 2    40   ~ 0
-U1IO4_6
+U1_IO4_6
 Text Label 1600 1850 0    40   ~ 0
-U1IO4_4
+U1_IO4_4
 Wire Wire Line
 	2400 1750 2700 1750
 Text Label 2700 1750 2    40   ~ 0
-U1IO4_5
+U1_IO4_5
 Wire Wire Line
 	8650 1700 9000 1700
 Wire Wire Line
@@ -2185,9 +2185,9 @@ F 3 "" H 8950 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 9000 2100 2    40   ~ 0
-U1IO4_4
+U1_IO4_4
 Text Label 9000 1900 2    40   ~ 0
-U1IO4_5
+U1_IO4_5
 Wire Wire Line
 	8650 2100 9000 2100
 Wire Wire Line
@@ -2251,13 +2251,13 @@ Wire Wire Line
 Wire Wire Line
 	2400 2050 2700 2050
 Text Label 2700 1850 2    40   ~ 0
-U1IO4_3
+U1_IO4_3
 Text Label 2700 1950 2    40   ~ 0
-U1IO4_2
+U1_IO4_2
 Text Label 2700 2050 2    40   ~ 0
-U1IO4_0
+U1_IO4_0
 Text Label 1600 2050 0    40   ~ 0
-U1IO4_1
+U1_IO4_1
 Wire Wire Line
 	1550 1450 1900 1450
 Wire Wire Line
@@ -2277,13 +2277,13 @@ Wire Wire Line
 Wire Wire Line
 	8650 2600 9000 2600
 Text Label 9000 2200 2    40   ~ 0
-U1IO4_3
+U1_IO4_3
 Text Label 9000 2300 2    40   ~ 0
-U1IO4_2
+U1_IO4_2
 Text Label 9000 2400 2    40   ~ 0
-U1IO4_1
+U1_IO4_1
 Text Label 9000 2600 2    40   ~ 0
-U1IO4_0
+U1_IO4_0
 Wire Wire Line
 	1900 2150 1600 2150
 Wire Wire Line
@@ -2301,21 +2301,21 @@ Wire Wire Line
 Wire Wire Line
 	2400 2450 2700 2450
 Text Label 1600 2150 0    40   ~ 0
-U1IO3_7
+U1_IO3_7
 Text Label 1600 2250 0    40   ~ 0
-U1IO3_5
+U1_IO3_5
 Text Label 1600 2350 0    40   ~ 0
-U1IO3_3
+U1_IO3_3
 Text Label 1600 2450 0    40   ~ 0
-U1IO3_1
+U1_IO3_1
 Text Label 2700 2150 2    40   ~ 0
-U1IO3_6
+U1_IO3_6
 Text Label 2700 2250 2    40   ~ 0
-U1IO3_4
+U1_IO3_4
 Text Label 2700 2350 2    40   ~ 0
-U1IO3_2
+U1_IO3_2
 Text Label 2700 2450 2    40   ~ 0
-U1IO3_0
+U1_IO3_0
 Wire Wire Line
 	8650 2700 9000 2700
 Wire Wire Line
@@ -2333,21 +2333,21 @@ Wire Wire Line
 Wire Wire Line
 	8650 3500 9000 3500
 Text Label 9000 2700 2    40   ~ 0
-U1IO3_7
+U1_IO3_7
 Text Label 9000 2800 2    40   ~ 0
-U1IO3_6
+U1_IO3_6
 Text Label 9000 2900 2    40   ~ 0
-U1IO3_5
+U1_IO3_5
 Text Label 9000 3000 2    40   ~ 0
-U1IO3_4
+U1_IO3_4
 Text Label 9000 3100 2    40   ~ 0
-U1IO3_3
+U1_IO3_3
 Text Label 9000 3300 2    40   ~ 0
-U1IO3_2
+U1_IO3_2
 Text Label 9000 3400 2    40   ~ 0
-U1IO3_1
+U1_IO3_1
 Text Label 9000 3500 2    40   ~ 0
-U1IO3_0
+U1_IO3_0
 Wire Wire Line
 	1900 2550 1600 2550
 Wire Wire Line
@@ -2365,21 +2365,21 @@ Wire Wire Line
 Wire Wire Line
 	2400 2850 2700 2850
 Text Label 1600 2550 0    40   ~ 0
-U1IO2_7
+U1_IO2_7
 Text Label 1600 2650 0    40   ~ 0
-U1IO2_5
+U1_IO2_5
 Text Label 1600 2750 0    40   ~ 0
-U1IO2_3
+U1_IO2_3
 Text Label 1600 2850 0    40   ~ 0
-U1IO2_1
+U1_IO2_1
 Text Label 2700 2550 2    40   ~ 0
-U1IO2_6
+U1_IO2_6
 Text Label 2700 2650 2    40   ~ 0
-U1IO2_4
+U1_IO2_4
 Text Label 1050 2250 2    40   ~ 0
-U1IO2_2
+U1_IO2_2
 Text Label 1050 2350 2    40   ~ 0
-U1IO2_0
+U1_IO2_0
 Wire Wire Line
 	8650 3600 9000 3600
 Wire Wire Line
@@ -2397,21 +2397,21 @@ Wire Wire Line
 Wire Wire Line
 	7450 3600 7150 3600
 Text Label 9000 3600 2    40   ~ 0
-U1IO2_7
+U1_IO2_7
 Text Label 9000 3800 2    40   ~ 0
-U1IO2_6
+U1_IO2_6
 Text Label 9000 3900 2    40   ~ 0
-U1IO2_5
+U1_IO2_5
 Text Label 9000 4000 2    40   ~ 0
-U1IO2_4
+U1_IO2_4
 Text Label 7150 4000 0    40   ~ 0
-U1IO2_3
+U1_IO2_3
 Text Label 7150 3900 0    40   ~ 0
-U1IO2_2
+U1_IO2_2
 Text Label 7150 3800 0    40   ~ 0
-U1IO2_1
+U1_IO2_1
 Text Label 7150 3600 0    40   ~ 0
-U1IO2_0
+U1_IO2_0
 Wire Wire Line
 	7450 3500 7150 3500
 Wire Wire Line
@@ -2433,25 +2433,25 @@ Wire Wire Line
 Wire Wire Line
 	2400 3050 2700 3050
 Text Label 1600 2950 0    40   ~ 0
-U1IO1_7
+U1_IO1_7
 Text Label 1600 3050 0    40   ~ 0
-U1IO1_5
+U1_IO1_5
 Text Label 1600 3150 0    40   ~ 0
-U1IO1_3
+U1_IO1_3
 Text Label 2700 2950 2    40   ~ 0
-U1IO1_6
+U1_IO1_6
 Text Label 2700 3050 2    40   ~ 0
-U1IO1_4
+U1_IO1_4
 Text Label 7150 3000 0    40   ~ 0
-U1IO1_3
+U1_IO1_3
 Text Label 7150 3100 0    40   ~ 0
-U1IO1_4
+U1_IO1_4
 Text Label 7150 3300 0    40   ~ 0
-U1IO1_5
+U1_IO1_5
 Text Label 7150 3400 0    40   ~ 0
-U1IO1_6
+U1_IO1_6
 Text Label 7150 3500 0    40   ~ 0
-U1IO1_7
+U1_IO1_7
 Wire Wire Line
 	3600 1450 3300 1450
 Wire Wire Line
@@ -2459,13 +2459,13 @@ Wire Wire Line
 Wire Wire Line
 	4100 1550 4400 1550
 Text Label 3300 1550 0    40   ~ 0
-U2IO2_6
+U2_IO2_6
 Text Label 3300 1450 0    40   ~ 0
-U2IO2_4
+U2_IO2_4
 Text Label 4400 1550 2    40   ~ 0
-U2IO2_5
+U2_IO2_5
 Text Label 1050 2150 2    40   ~ 0
-U2IO2_7
+U2_IO2_7
 Wire Wire Line
 	11900 4000 12200 4000
 Wire Wire Line
@@ -2475,13 +2475,13 @@ Wire Wire Line
 Wire Wire Line
 	11900 3600 12200 3600
 Text Label 12200 3600 2    40   ~ 0
-U2IO2_7
+U2_IO2_7
 Text Label 12200 3800 2    40   ~ 0
-U2IO2_6
+U2_IO2_6
 Text Label 12200 3900 2    40   ~ 0
-U2IO2_5
+U2_IO2_5
 Text Label 12200 4000 2    40   ~ 0
-U2IO2_4
+U2_IO2_4
 Wire Wire Line
 	11900 4200 12200 4200
 $Comp
@@ -2517,13 +2517,13 @@ Wire Wire Line
 Wire Wire Line
 	3600 1850 3300 1850
 Text Label 4400 1850 2    40   ~ 0
-U2IO3_2
+U2_IO3_2
 Text Label 4400 1750 2    40   ~ 0
-U2IO3_0
+U2_IO3_0
 Text Label 3300 1750 0    40   ~ 0
-U2IO3_1
+U2_IO3_1
 Text Label 3300 1850 0    40   ~ 0
-U2IO3_3
+U2_IO3_3
 Wire Wire Line
 	11900 3500 12200 3500
 Wire Wire Line
@@ -2533,13 +2533,13 @@ Wire Wire Line
 Wire Wire Line
 	11900 3100 12200 3100
 Text Label 12200 3500 2    40   ~ 0
-U1IO3_0
+U1_IO3_0
 Text Label 12200 3400 2    40   ~ 0
-U2IO3_1
+U2_IO3_1
 Text Label 12200 3300 2    40   ~ 0
-U2IO3_2
+U2_IO3_2
 Text Label 12200 3100 2    40   ~ 0
-U2IO3_3
+U2_IO3_3
 Text Label 2450 4300 1    40   ~ 0
 ADC0_2
 Text Label 2350 4300 1    40   ~ 0
@@ -2601,19 +2601,99 @@ NoConn ~ 15100 7400
 NoConn ~ 15100 7500
 NoConn ~ 16000 6400
 Text Label 3300 2050 0    40   ~ 0
-U2IO3_5
+U2_IO3_5
 Wire Wire Line
 	3300 2050 3600 2050
 Wire Wire Line
 	3600 2150 3300 2150
 Text Label 3300 2150 0    40   ~ 0
-U2IO3_7
+U2_IO3_7
 Wire Wire Line
 	11900 2700 12200 2700
 Wire Wire Line
 	11900 2900 12200 2900
 Text Label 12200 2700 2    40   ~ 0
-U2IO3_7
+U2_IO3_7
 Text Label 12200 2900 2    40   ~ 0
-U2IO3_5
+U2_IO3_5
+Text Label 4400 2050 2    40   ~ 0
+U2_IO3_4
+Text Label 4400 2150 2    40   ~ 0
+U2_IO3_6
+Wire Wire Line
+	4100 2050 4400 2050
+Wire Wire Line
+	4100 2150 4400 2150
+Text Label 12200 3000 2    40   ~ 0
+U2_IO3_4
+Wire Wire Line
+	11900 3000 12200 3000
+Wire Wire Line
+	11900 2800 12200 2800
+Text Label 12200 2800 2    40   ~ 0
+U2_IO3_6
+Wire Wire Line
+	4400 2250 4100 2250
+Wire Wire Line
+	4400 2350 4100 2350
+Wire Wire Line
+	3300 2250 3600 2250
+Wire Wire Line
+	3300 2350 3600 2350
+Text Label 4400 2250 2    40   ~ 0
+U2_IO4_0
+Text Label 4400 2350 2    40   ~ 0
+U2_IO4_2
+Text Label 3300 2250 0    40   ~ 0
+U2_IO4_1
+Text Label 3300 2350 0    40   ~ 0
+U2_IO4_3
+Wire Wire Line
+	12200 2600 11900 2600
+Wire Wire Line
+	12200 2400 11900 2400
+Wire Wire Line
+	12200 2300 11900 2300
+Wire Wire Line
+	12200 2200 11900 2200
+Text Label 12200 2600 2    40   ~ 0
+U2_IO4_0
+Text Label 12200 2400 2    40   ~ 0
+U2_IO4_1
+Text Label 12200 2300 2    40   ~ 0
+U2_IO4_2
+Text Label 12200 2200 2    40   ~ 0
+U2_IO4_3
+Wire Wire Line
+	3300 2550 3600 2550
+Wire Wire Line
+	3300 2650 3600 2650
+Wire Wire Line
+	3300 2750 3600 2750
+Wire Wire Line
+	3300 2850 3600 2850
+Text Label 3300 2550 0    40   ~ 0
+U2_IO4_4
+Text Label 3300 2650 0    40   ~ 0
+U2_IO4_5
+Text Label 3300 2750 0    40   ~ 0
+U2_IO4_6
+Text Label 3300 2850 0    40   ~ 0
+U2_IO4_7
+Text Label 12200 2100 2    40   ~ 0
+U2_IO4_4
+Wire Wire Line
+	12200 2100 11900 2100
+Wire Wire Line
+	12200 1900 11900 1900
+Wire Wire Line
+	12200 1800 11900 1800
+Wire Wire Line
+	12200 1700 11900 1700
+Text Label 12200 1900 2    40   ~ 0
+U2_IO4_5
+Text Label 12200 1800 2    40   ~ 0
+U2_IO4_6
+Text Label 12200 1700 2    40   ~ 0
+U2_IO4_7
 $EndSCHEMATC
