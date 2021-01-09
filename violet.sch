@@ -708,8 +708,6 @@ Wire Wire Line
 Wire Wire Line
 	3150 4300 3150 3950
 Wire Wire Line
-	3050 4300 3050 3950
-Wire Wire Line
 	2850 4300 2850 3950
 Wire Wire Line
 	2750 4300 2750 3950
@@ -848,17 +846,6 @@ Wire Wire Line
 	2100 8650 1500 8650
 Wire Wire Line
 	2100 8750 1500 8750
-$Comp
-L gsg-symbols:PCA9698 U?
-U 1 1 5F510C18
-P 8050 2850
-F 0 "U?" H 8050 4465 50  0000 C CNN
-F 1 "PCA9698" H 8050 4374 50  0000 C CNN
-F 2 "" H 8050 2850 40  0000 C CNN
-F 3 "" H 8050 2850 40  0000 C CNN
-	1    8050 2850
-	1    0    0    -1  
-$EndComp
 $Comp
 L gsg-symbols:PCA9698 U?
 U 1 1 5F5126F3
@@ -1274,17 +1261,6 @@ Text Label 12700 1500 2    50   ~ 0
 P1_16
 Text Label 12700 1600 2    50   ~ 0
 P1_13
-NoConn ~ 7450 2700
-NoConn ~ 7450 2600
-NoConn ~ 7450 2400
-NoConn ~ 7450 2100
-NoConn ~ 7450 2300
-NoConn ~ 7450 2900
-NoConn ~ 7450 2800
-NoConn ~ 7450 2200
-NoConn ~ 7450 1900
-Text Notes 6250 2900 1    50   ~ 0
-No connects are TPs on Narcissus
 Text Label 15100 6700 0    40   ~ 0
 P2_8
 $Comp
@@ -2376,10 +2352,6 @@ Text Label 2700 2550 2    40   ~ 0
 U1_IO2_6
 Text Label 2700 2650 2    40   ~ 0
 U1_IO2_4
-Text Label 1050 2250 2    40   ~ 0
-U1_IO2_2
-Text Label 1050 2350 2    40   ~ 0
-U1_IO2_0
 Wire Wire Line
 	8650 3600 9000 3600
 Wire Wire Line
@@ -2464,7 +2436,7 @@ Text Label 3300 1450 0    40   ~ 0
 U2_IO2_4
 Text Label 4400 1550 2    40   ~ 0
 U2_IO2_5
-Text Label 1050 2150 2    40   ~ 0
+Text Label 4400 2750 2    40   ~ 0
 U2_IO2_7
 Wire Wire Line
 	11900 4000 12200 4000
@@ -2696,4 +2668,220 @@ Text Label 12200 1800 2    40   ~ 0
 U2_IO4_6
 Text Label 12200 1700 2    40   ~ 0
 U2_IO4_7
+Text Label 3050 4300 1    50   ~ 0
+I\O
+Text Label 4600 1450 2    40   ~ 0
+EUT_+5V
+Wire Wire Line
+	3300 2950 3600 2950
+Wire Wire Line
+	3300 3150 3600 3150
+Text Label 3300 2950 0    40   ~ 0
+U2_IO0_0
+Text Label 3300 3150 0    40   ~ 0
+U2_IO0_4
+Wire Wire Line
+	10400 1700 10700 1700
+Wire Wire Line
+	10400 1900 10700 1900
+Wire Wire Line
+	10400 2200 10700 2200
+Text Label 10400 1700 0    40   ~ 0
+U2_IO0_0
+Text Label 10400 1900 0    40   ~ 0
+U2_IO0_2
+Text Label 10400 2200 0    40   ~ 0
+U2_IO0_4
+Text Label 4250 2850 0    40   ~ 0
+I\O
+Text Label 4250 2950 0    40   ~ 0
+I\O
+Text Label 4250 3250 0    40   ~ 0
+I\O
+Text Label 3300 3350 0    40   ~ 0
+I2C0_SDA
+Wire Wire Line
+	3600 3350 3300 3350
+Text Label 4400 3350 2    40   ~ 0
+I2C0_SCL
+Wire Wire Line
+	4400 3350 4100 3350
+$Comp
+L power:GND #PWR?
+U 1 1 604CCBF3
+P 11050 5700
+F 0 "#PWR?" H 11050 5450 50  0001 C CNN
+F 1 "GND" V 11055 5572 50  0000 R CNN
+F 2 "" H 11050 5700 50  0001 C CNN
+F 3 "" H 11050 5700 50  0001 C CNN
+	1    11050 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11350 5700 11050 5700
+Wire Wire Line
+	1600 1950 1900 1950
+Text Label 4400 2650 2    40   ~ 0
+U2_IO0_3
+Text Label 4400 2450 2    40   ~ 0
+U2_IO0_1
+Text Label 1600 3350 0    40   ~ 0
+U1_IO2_0
+Text Label 1600 3250 0    40   ~ 0
+U1_IO2_2
+Text Label 4400 2550 2    40   ~ 0
+U2_IO0_2
+Wire Wire Line
+	1600 3250 1900 3250
+Wire Wire Line
+	1600 3350 1900 3350
+$Comp
+L gsg-symbols:PCA9698 U?
+U 1 1 5F510C18
+P 8050 2850
+F 0 "U?" H 8050 4465 50  0000 C CNN
+F 1 "PCA9698" H 8050 4374 50  0000 C CNN
+F 2 "" H 8050 2850 40  0000 C CNN
+F 3 "" H 8050 2850 40  0000 C CNN
+	1    8050 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 1900 7450 1900
+Wire Wire Line
+	7150 2100 7450 2100
+Wire Wire Line
+	7150 2200 7450 2200
+Wire Wire Line
+	7150 2300 7450 2300
+Wire Wire Line
+	7150 2400 7450 2400
+Wire Wire Line
+	7150 2600 7450 2600
+Wire Wire Line
+	7150 2700 7450 2700
+Wire Wire Line
+	7150 2800 7450 2800
+Wire Wire Line
+	7150 2900 7450 2900
+Text Label 7150 1900 0    40   ~ 0
+U1_IO0_2
+Text Label 1600 1950 0    40   ~ 0
+U2_IO0_2
+Wire Wire Line
+	2700 3150 2400 3150
+Wire Wire Line
+	2700 3250 2400 3250
+Wire Wire Line
+	2700 3350 2400 3350
+Text Label 7150 2100 0    40   ~ 0
+U1_IO0_3
+Text Label 7150 2200 0    40   ~ 0
+U1_IO0_4
+Text Label 7150 2300 0    40   ~ 0
+U1_IO0_5
+Text Label 2700 3150 2    40   ~ 0
+U1_IO0_3
+Text Label 2700 3250 2    40   ~ 0
+U1_IO0_4
+Text Label 2700 3350 2    40   ~ 0
+U1_IO0_5
+Wire Wire Line
+	3300 1650 3600 1650
+Wire Wire Line
+	3300 1950 3600 1950
+Wire Wire Line
+	3300 2450 3600 2450
+Text Label 7150 2400 0    40   ~ 0
+U1_IO0_6
+Text Label 7150 2600 0    40   ~ 0
+U1_IO0_7
+Text Label 7150 2700 0    40   ~ 0
+U1_IO1_0
+Text Label 3300 1650 0    40   ~ 0
+U1_IO0_6
+Text Label 3300 1950 0    40   ~ 0
+U1_IO0_7
+Text Label 3300 2450 0    40   ~ 0
+U1_IO1_0
+Wire Wire Line
+	3300 3250 3600 3250
+Text Label 7150 2800 0    40   ~ 0
+U1_IO1_1
+Text Label 3300 3250 0    40   ~ 0
+U1_IO1_1
+Wire Wire Line
+	4400 1950 4100 1950
+Text Label 7150 2900 0    40   ~ 0
+U1_IO1_2
+Text Label 4400 1950 2    40   ~ 0
+U1_IO1_2
+Wire Wire Line
+	4400 2450 4100 2450
+Wire Wire Line
+	4400 2550 4100 2550
+Wire Wire Line
+	4400 2650 4100 2650
+Wire Wire Line
+	4400 2750 4100 2750
+Wire Wire Line
+	10400 1800 10700 1800
+Wire Wire Line
+	10400 2100 10700 2100
+Text Label 10400 1800 0    40   ~ 0
+U2_IO0_1
+Text Label 10400 2100 0    40   ~ 0
+U2_IO0_3
+$Comp
+L gsg-symbols:PCA9674 U?
+U 1 1 6124F8C7
+P 11800 5350
+F 0 "U?" H 11800 5902 40  0000 C CNN
+F 1 "PCA9674" H 11800 5826 40  0000 C CNN
+F 2 "" H 11800 5350 40  0000 C CNN
+F 3 "" H 11800 5350 40  0000 C CNN
+	1    11800 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12550 5200 12250 5200
+Text Label 12550 5200 2    40   ~ 0
+I2C0_SCL
+Wire Wire Line
+	12250 5100 12550 5100
+Text Label 12550 5100 2    40   ~ 0
+I2C0_SDA
+$Comp
+L power:GND #PWR?
+U 1 1 61412BAB
+P 11050 5200
+F 0 "#PWR?" H 11050 4950 50  0001 C CNN
+F 1 "GND" V 11055 5072 50  0000 R CNN
+F 2 "" H 11050 5200 50  0001 C CNN
+F 3 "" H 11050 5200 50  0001 C CNN
+	1    11050 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11350 5200 11150 5200
+Wire Wire Line
+	11350 5100 11150 5100
+Wire Wire Line
+	11150 5100 11150 5200
+Connection ~ 11150 5200
+Wire Wire Line
+	11150 5200 11050 5200
+$Comp
+L power:VCC #PWR?
+U 1 1 614CF790
+P 11050 5000
+F 0 "#PWR?" H 11050 4850 50  0001 C CNN
+F 1 "VCC" V 11068 5127 50  0000 L CNN
+F 2 "" H 11050 5000 50  0001 C CNN
+F 3 "" H 11050 5000 50  0001 C CNN
+	1    11050 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11350 5000 11050 5000
 $EndSCHEMATC
