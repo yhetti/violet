@@ -1676,17 +1676,17 @@ F 3 "" H 5600 4150 50  0001 C CNN
 $EndComp
 Text Label 8750 4050 0    40   ~ 0
 U2_IO2_3
-Text Label 3300 3150 0    40   ~ 0
+Text Label 3650 4300 1    40   ~ 0
 U2_IO2_3
 Text Label 8750 3950 0    40   ~ 0
 U2_IO2_2
-Text Label 3750 4300 1    40   ~ 0
+Text Label 3300 3150 0    40   ~ 0
 U2_IO2_2
 Wire Wire Line
 	2550 3950 2550 4300
 Text Label 8750 3850 0    40   ~ 0
 U2_IO2_1
-Text Label 4400 3250 2    40   ~ 0
+Text Label 3750 4300 1    40   ~ 0
 U2_IO2_1
 Wire Wire Line
 	2650 3950 2650 4300
@@ -1763,15 +1763,15 @@ Text Label 8750 3650 0    40   ~ 0
 U2_IO2_0
 Wire Wire Line
 	9050 3650 8750 3650
-Text Label 3300 3250 0    40   ~ 0
+Text Label 4400 3250 2    40   ~ 0
 U2_IO2_0
 Wire Wire Line
 	9050 3550 8750 3550
 Text Label 8750 3550 0    40   ~ 0
 U2_IO1_7
-Text Label 3850 4300 1    40   ~ 0
+Text Label 3300 3250 0    40   ~ 0
 U2_IO1_7
-Text Label 3950 4300 1    40   ~ 0
+Text Label 3850 4300 1    40   ~ 0
 U2_IO1_6
 Wire Wire Line
 	9050 3450 8750 3450
@@ -2091,13 +2091,13 @@ Wire Wire Line
 	3600 1550 3300 1550
 Wire Wire Line
 	4100 1550 4400 1550
-Text Label 4400 1950 2    40   ~ 0
+Text Label 4400 2950 2    40   ~ 0
 U2_IO2_6
-Text Label 4400 1550 2    40   ~ 0
+Text Label 3550 4300 1    40   ~ 0
 U2_IO2_4
-Text Label 4400 1850 2    40   ~ 0
+Text Label 3300 2950 0    40   ~ 0
 U2_IO2_5
-Text Label 4400 2050 2    40   ~ 0
+Text Label 4400 2850 2    40   ~ 0
 U2_IO2_7
 Wire Wire Line
 	10250 4050 10550 4050
@@ -2149,11 +2149,11 @@ Wire Wire Line
 	4100 1850 4400 1850
 Wire Wire Line
 	3600 1850 3300 1850
-Text Label 3300 2250 0    40   ~ 0
+Text Label 4400 2650 2    40   ~ 0
 U2_IO3_2
-Text Label 3300 2150 0    40   ~ 0
+Text Label 3300 2650 0    40   ~ 0
 U2_IO3_1
-Text Label 3300 2350 0    40   ~ 0
+Text Label 3300 2550 0    40   ~ 0
 U2_IO3_3
 Wire Wire Line
 	10250 3550 10550 3550
@@ -2215,7 +2215,7 @@ Wire Wire Line
 	3300 2050 3600 2050
 Wire Wire Line
 	3600 2150 3300 2150
-Text Label 3300 2550 0    40   ~ 0
+Text Label 3300 2350 0    40   ~ 0
 U2_IO3_7
 Wire Wire Line
 	10250 2750 10550 2750
@@ -2225,9 +2225,9 @@ Text Label 10550 2750 2    40   ~ 0
 U2_IO3_7
 Text Label 10550 2950 2    40   ~ 0
 U2_IO3_5
-Text Label 4400 2450 2    40   ~ 0
-U2_IO3_4
 Text Label 4400 2550 2    40   ~ 0
+U2_IO3_4
+Text Label 4400 2450 2    40   ~ 0
 U2_IO3_6
 Wire Wire Line
 	4100 2050 4400 2050
@@ -2249,9 +2249,9 @@ Wire Wire Line
 	3300 2250 3600 2250
 Wire Wire Line
 	3300 2350 3600 2350
-Text Label 3300 2650 0    40   ~ 0
+Text Label 3300 2150 0    40   ~ 0
 U2_IO4_1
-Text Label 4400 2850 2    40   ~ 0
+Text Label 4400 2050 2    40   ~ 0
 U2_IO4_3
 Wire Wire Line
 	10550 2650 10250 2650
@@ -2273,9 +2273,9 @@ Wire Wire Line
 	3300 2750 3600 2750
 Wire Wire Line
 	3300 2850 3600 2850
-Text Label 4400 2950 2    40   ~ 0
+Text Label 4400 1950 2    40   ~ 0
 U2_IO4_4
-Text Label 3300 2950 0    40   ~ 0
+Text Label 4400 1850 2    40   ~ 0
 U2_IO4_5
 Text Label 10550 2150 2    40   ~ 0
 U2_IO4_4
@@ -2345,8 +2345,8 @@ Wire Wire Line
 	5600 2850 5900 2850
 Wire Wire Line
 	5600 2950 5900 2950
-Text Label 3300 1550 0    40   ~ 0
-U1_IO0_2
+Text Label 8750 3350 0    40   ~ 0
+U2_IO1_5
 Wire Wire Line
 	2700 3150 2400 3150
 Wire Wire Line
@@ -3287,26 +3287,23 @@ U1_IO0_2
 Text Label 2050 4300 1    40   ~ 0
 U1_IO0_2
 Text Label 10550 3550 2    40   ~ 0
-U1_IO3_0
-Text Label 4400 2150 2    40   ~ 0
-U1_IO3_0
-Text Label 10550 2650 2    40   ~ 0
-U1_IO4_0
-Text Label 4400 2650 2    40   ~ 0
-U1_IO4_0
-Text Label 10550 2350 2    40   ~ 0
-U1_IO4_2
+U2_IO3_0
 Text Label 4400 2750 2    40   ~ 0
-U1_IO4_2
+U2_IO3_0
+Text Label 10550 2650 2    40   ~ 0
+U2_IO4_0
+Text Label 3300 2250 0    40   ~ 0
+U2_IO4_0
+Text Label 10550 2350 2    40   ~ 0
+U2_IO4_2
+Text Label 4400 2150 2    40   ~ 0
+U2_IO4_2
 Text Label 10550 1850 2    40   ~ 0
-U1_IO4_6
-Text Label 3550 4300 1    40   ~ 0
-U1_IO4_6
-Text Label 10550 1750 2    40   ~ 0
-U1_IO4_7
-Text Label 3650 4300 1    40   ~ 0
-U1_IO4_7
-NoConn ~ 8750 3350
+U2_IO4_6
+Text Label 3300 1550 0    40   ~ 0
+U2_IO4_6
+Text Label 4400 1550 2    40   ~ 0
+U2_IO4_7
 NoConn ~ 8750 1750
 NoConn ~ 8750 1850
 NoConn ~ 8750 1950
@@ -3328,4 +3325,28 @@ Wire Notes Line
 	2050 6100 2050 7500
 Wire Notes Line
 	2050 7500 500  7500
+$Comp
+L Device:C C9
+U 1 1 601130D3
+P 10450 5000
+F 0 "C9" H 10565 5046 50  0000 L CNN
+F 1 "100nF" H 10565 4955 40  0000 C TNN
+F 2 "gsg-modules:0603" H 10488 4850 50  0001 C CNN
+F 3 "~" H 10450 5000 50  0001 C CNN
+F 4 "KEMET" H 10450 5000 50  0001 C CNN "Manufacturer"
+F 5 "C0603C104M4RACTU" H 10450 5000 50  0001 C CNN "Part Number"
+F 6 "CAP CER 0.1UF 16V X7R 0603" H 10450 5000 50  0001 C CNN "Description"
+	1    10450 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 4850 10450 4850
+Connection ~ 10100 4850
+Wire Wire Line
+	10100 5150 10450 5150
+Connection ~ 10100 5150
+Text Label 10550 1750 2    40   ~ 0
+U2_IO4_7
+Text Label 3950 4300 1    40   ~ 0
+U2_IO1_5
 $EndSCHEMATC
