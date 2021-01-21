@@ -2913,25 +2913,25 @@ NoConn ~ 14250 2250
 $Comp
 L Connector_Generic:Conn_01x08 J10
 U 1 1 605A089F
-P 2050 6150
-F 0 "J10" H 2130 6142 50  0000 L CNN
-F 1 "Conn_01x08" H 2130 6051 50  0000 L CNN
-F 2 "gsg-modules:HEADER-1x8" H 2050 6150 50  0001 C CNN
-F 3 "~" H 2050 6150 50  0001 C CNN
-F 4 "Samtec Inc." H 2050 6150 50  0001 C CNN "Manufacturer"
-F 5 "SSQ-108-01-G-S" H 2050 6150 50  0001 C CNN "Part Number"
-F 6 "CONN RCPT 8POS 0.1 GOLD PCB" H 2050 6150 50  0001 C CNN "Description"
-	1    2050 6150
+P 1250 6650
+F 0 "J10" H 1330 6642 50  0000 L CNN
+F 1 "Conn_01x08" H 1330 6551 50  0000 L CNN
+F 2 "gsg-modules:HEADER-1x8" H 1250 6650 50  0001 C CNN
+F 3 "~" H 1250 6650 50  0001 C CNN
+F 4 "Samtec Inc." H 1250 6650 50  0001 C CNN "Manufacturer"
+F 5 "SSQ-108-01-G-S" H 1250 6650 50  0001 C CNN "Part Number"
+F 6 "CONN RCPT 8POS 0.1 GOLD PCB" H 1250 6650 50  0001 C CNN "Description"
+	1    1250 6650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1850 5850
-NoConn ~ 1850 5950
-NoConn ~ 1850 6050
-NoConn ~ 1850 6150
-NoConn ~ 1850 6250
-NoConn ~ 1850 6350
-NoConn ~ 1850 6450
-NoConn ~ 1850 6550
+NoConn ~ 1050 6350
+NoConn ~ 1050 6450
+NoConn ~ 1050 6550
+NoConn ~ 1050 6650
+NoConn ~ 1050 6750
+NoConn ~ 1050 6850
+NoConn ~ 1050 6950
+NoConn ~ 1050 7050
 $Comp
 L Connector_Generic:Conn_01x01 MH9
 U 1 1 603AA208
@@ -3272,11 +3272,11 @@ Text Label 2700 2950 2    40   ~ 0
 U1_IO3_4
 Text Label 7450 2950 2    40   ~ 0
 U1_IO3_5
-Text Label 1600 3050 0    40   ~ 0
+Text Label 2700 3050 2    40   ~ 0
 U1_IO3_5
 Text Label 7450 2850 2    40   ~ 0
 U1_IO3_6
-Text Label 2700 3050 2    40   ~ 0
+Text Label 1600 3050 0    40   ~ 0
 U1_IO3_6
 Text Label 7450 2750 2    40   ~ 0
 U1_IO3_7
@@ -3320,4 +3320,12 @@ NoConn ~ 8750 2850
 NoConn ~ 8750 2950
 NoConn ~ 8750 3050
 NoConn ~ 8750 3150
+Text Notes 850  7400 0    79   ~ 0
+Header to block\nspurious IR
+Wire Notes Line
+	500  6100 2050 6100
+Wire Notes Line
+	2050 6100 2050 7500
+Wire Notes Line
+	2050 7500 500  7500
 $EndSCHEMATC

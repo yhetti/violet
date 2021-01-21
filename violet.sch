@@ -3264,19 +3264,19 @@ Text Label 1600 2850 0    40   ~ 0
 U1_IO3_2
 Text Label 7450 3150 2    40   ~ 0
 U1_IO3_3
-Text Label 1600 2950 0    40   ~ 0
+Text Label 2700 2950 2    40   ~ 0
 U1_IO3_3
 Text Label 7450 3050 2    40   ~ 0
 U1_IO3_4
-Text Label 2700 2950 2    40   ~ 0
+Text Label 1600 2950 0    40   ~ 0
 U1_IO3_4
 Text Label 7450 2950 2    40   ~ 0
 U1_IO3_5
-Text Label 1600 3050 0    40   ~ 0
+Text Label 2700 3050 2    40   ~ 0
 U1_IO3_5
 Text Label 7450 2850 2    40   ~ 0
 U1_IO3_6
-Text Label 2700 3050 2    40   ~ 0
+Text Label 1600 3050 0    40   ~ 0
 U1_IO3_6
 Text Label 7450 2750 2    40   ~ 0
 U1_IO3_7
